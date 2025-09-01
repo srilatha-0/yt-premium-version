@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+html, body {
+    height: 100%;
+}
+.container {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(red 0%, black 80%);
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 5px,10px;
+}
+
+
+.leftNav {
+    display: flex;
+    width: 20%;
+    cursor:pointer;
+}
+
+.centerNav {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.centerNav>input{
+    background-color: rgb(40, 39, 39);
+    color:white;
+}
+
+.rightNav {
+    display: flex;
+    width: 20%;
+    justify-content: flex-end;
+    align-items: center;
+    cursor:pointer;
+}
+
+.centerNav > input {
+    padding: 6px 15px;
+    border-radius: 20px;
+    width: 70%;
+    border: 1px solid #303030;
+   
+}
+
+.leftNav img:nth-child(1),
+.centerNav img:nth-child(2),
+.centerNav img:nth-child(3) {
+    border-radius: 20px;
+}
+
+.mainBody {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    
+    
+}
+.ytpremium {
+    
+    text-align : center;
+    color: white;
+}
+.ytPremiumLogo{
+    
+    padding : 30px;
+    
+}
+.ytPremiumLogo>img{
+    border-radius : 30px;
+}
+.ytdesc{
+    padding : 30px;
+    font-size: 25px;
+}
+.blue>button{
+    padding:10px;
+    border-radius: 20px;
+    background-color: rgb(157, 201, 246);   
+}
+.details{
+    padding : 30px;
+    font-size: 15px;
+    color: rgb(241, 233, 233);
+}
+.foot{
+    margin : 0px 50px;
+    border: 1px solid rgb(197, 194, 194);
+    border-radius : 20px;
+    padding : 20px;
+    background-color: rgb(48, 45, 45);
+    cursor : pointer;
+    color : white;
+    line-height: 50px;
+    
+}
+
